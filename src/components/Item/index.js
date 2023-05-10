@@ -7,6 +7,7 @@ import {
 import { 
     FaCartPlus
 } from 'react-icons/fa';
+
 import { useDispatch, useSelector } from 'react-redux';
 import { mudarCarrinho } from 'store/reducers/carrinho';
 import { mudarFavorito } from 'store/reducers/itens';
